@@ -75,13 +75,13 @@ body {
     padding: 8px;
 }
 
-.hero-image {
+.hero-media {
     display: flex; 
     flex: 0 1 200px;
     /* border: solid 6px gray; */
 }
 
-.hero-image img {
+.hero-media img {
     width: 590px;
     height: 350px;
 }
