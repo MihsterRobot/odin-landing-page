@@ -130,13 +130,13 @@ body {
     margin: 0;
 }
 
-.cta-content .register {
+.cta-button {
     display: flex;
     padding: 7.4px;
     /* border: solid orangered; */
 }
 
-.cta-content button {
+.cta-button button {
     width: 100px;
     padding: 8px;
     border-radius: 8px;
