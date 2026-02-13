@@ -105,6 +105,47 @@ body {
     height: 150px;
 }
 
+/* TODO: Added testimonial classes */
+/* Changed testimonial selector from text to quote */
+.testimonial {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;             
+    background: #E5E7EB;
+    border: solid black;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 32px;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.testimonial-quote p {
+    margin-bottom: 0;
+}
+
+.testimonial-signature {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: 900;
+    margin-right: 32px;
+    margin-top: 0;
+}
+
+.testimonial-signature p {
+    margin-top: 0;    
+}
+
 .cta {
     display: flex; 
     justify-content: center;
