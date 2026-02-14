@@ -33,7 +33,7 @@ body {
     border: solid red;
 }
 
-.hero .header {
+.hero-header {
     /* Layout */
     display: flex;
     justify-content: space-between;
@@ -42,13 +42,13 @@ body {
     border: solid orange;
 }
 
-.hero .header h2 {
+.hero-header h2 {
     /* Typography */
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.hero .header ul {
+.hero-header ul {
     /* Layout */
     display: flex;
 
