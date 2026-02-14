@@ -1,187 +1,318 @@
 /* Border colors added for visualizing element boundaries */
 
 body {
-    font-family: "Roboto", sans-serif;
-    min-height: 100vh;
+    /* Layout */
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+
+    /* Box model */
     margin: 0;
+
+    /* Typography */
+    font-family: "Roboto", sans-serif;
+
     /* border: solid 4px green; */
 }
 
+/* ---------------- HERO SECTION ---------------- */
+
 .hero {
+    /* Layout */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+
+    /* Box model */
+    gap: 48px;
+    padding: 0 160px 120px 160px;
+
+    /* Visual */
     background: #1F2937;
-    padding: 0 160px 160px 160px; 
-    /* border: solid red; */
+
+    border: solid red;
 }
 
 .hero .header {
+    /* Layout */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: solid orange; */
+
+    border: solid orange;
 }
 
 .hero .header h2 {
+    /* Typography */
     font-size: 24px;
     color: #F9FAF8;
 }
 
 .hero .header ul {
+    /* Layout */
+    display: flex;
+
+    /* Box model */
+    gap: 16px;
+    padding: 0;
+
+    /* Typography */
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
-    gap: 16px;   
-    padding: 0;
 }
 
 .hero-content {
-    display: flex; 
+    /* Layout */
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 120px;
-    gap: 32px;
+
     border: solid 4px green;
 }
 
 .hero-text {
+    /* Layout */
     display: flex;
     flex-direction: column;
+
+    /* Box model */
     max-width: 60ch;
-    padding: 32px 32px 32px 0; 
-    /* border: solid cyan; */
+
+    border: solid cyan;
 }
 
 .hero-text h1 {
+    /* Typography */
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
+    color: #F9FAF8;
+
+    /* Box model */
     margin: 0;
 }
 
 .hero-text p {
+    /* Typography */
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .hero-text button {
-    width: 100px;
-    background: #3882F6;
+    /* Typography */
+    font-size: 17px;
+    font-weight: 650;
     color: #F9FAF8;
-    border-radius: 8px;
+
+    /* Box model */
+    width: 116px;
     padding: 8px;
+
+    /* Visual */
+    background: #3882F6;
+    border-radius: 8px;
 }
 
 .hero-media {
-    display: flex; 
-    flex: 0 1 200px;
-    /* border: solid 6px gray; */
+    /* Layout */
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+    border: solid 6px gray;
 }
 
 .hero-media img {
-    width: 590px;
-    height: 350px;
+    /* Layout */
+    width: 100%;
+    height: auto;
+
+    /* Box model */
+    max-width: 300px;
 }
 
+/* ---------------- FEATURES SECTION ---------------- */
+
 .features {
-    display: flex; 
+    /* Layout */
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+
+    /* Box model */
+    padding: 24px 0 100px 0;
+    gap: 8px;
 }
 
 .feature-list {
+    /* Layout */
     display: flex;
     text-align: center;
+
+    /* Box model */
     gap: 32px;
 }
 
 .feature-list img {
+    /* Layout */
     width: 150px;
     height: 150px;
 }
 
-/* TODO: Added testimonial classes */
-/* Changed testimonial selector from text to quote */
+.features h2 {
+    /* Typography */
+    font-size: 32px;
+    font-weight: 900;
+}
+
+/* ---------------- TESTIMONIAL SECTION ---------------- */
+
 .testimonial {
+    /* Layout */
     display: flex;
     justify-content: center;
-    padding: 96px 0;             
+
+    /* Box model */
+    padding: 96px 0;
+
+    /* Visual */
     background: #E5E7EB;
+
     border: solid black;
 }
 
 .testimonial-content {
+    /* Layout */
     display: flex;
     flex-direction: column;
+
+    /* Box model */
     max-width: 900px;
     margin: 0 32px;
+
+    border: solid green;
 }
 
 .testimonial-quote {
+    /* Typography */
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+
+    /* Box model */
     margin: 0;
+
+    border: solid blue;
 }
 
 .testimonial-quote p {
+    /* Box model */
     margin-bottom: 0;
 }
 
 .testimonial-signature {
+    /* Layout */
     align-self: flex-end;
+
+    /* Typography */
     font-size: 28px;
     font-weight: 900;
+
+    /* Box model */
     margin-right: 32px;
     margin-top: 0;
+
+    border: solid orange;
 }
 
 .testimonial-signature p {
-    margin-top: 0;    
+    /* Box model */
+    margin-top: 0;
 }
 
+/* ---------------- CTA SECTION ---------------- */
+
 .cta {
-    display: flex; 
+    /* Layout */
+    display: flex;
     justify-content: center;
     align-items: center;
+
+    /* Box model */
     padding: 150px;
+
     /* border: solid green; */
 }
 
 .cta-content {
-    display: flex; 
-    flex: 1 1 0;
-    justify-content: space-evenly;
+    /* Layout */
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
     align-items: center;
-    padding: 56px;
+
+    /* Box model */
+    padding: 56px 0;
+
+    /* Typography */
     color: #F9FAF8;
+
+    /* Visual */
     background: #3882F6;
     border-radius: 8px;
+
     /* border: solid blue; */
 }
 
 .cta-content h2,
 .cta-content p {
+    /* Box model */
     margin: 0;
 }
 
-.cta-button {
+.cta-controls {
+    /* Layout */
     display: flex;
+
+    /* Box model */
     padding: 7.4px;
+
     /* border: solid orangered; */
 }
 
-.cta-button button {
-    width: 100px;
-    padding: 8px;
-    border-radius: 8px;
+.cta-controls button {
+    /* Typography */
+    font-size: 17px;
+    font-weight: 650;
     color: #F9FAF8;
+
+    /* Box model */
+    width: 116px;
+    padding: 8px;
+
+    /* Visual */
     background: #3882F6;
+    border-radius: 8px;
     border: solid 2px white;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+.footer {
+    /* Layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Box model */
+    padding: 0;
+
+    /* Typography */
+    font-size: 17px;
+    color: #F9FAF8;
+
+    /* Visual */
+    background: #1F2937;
 }
