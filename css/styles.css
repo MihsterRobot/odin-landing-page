@@ -119,6 +119,19 @@ body {
     /* Visual */
     background-color: #3882F6;
     border-radius: 8px;
+    border: solid 2px darkgray;
+    cursor: pointer; /* Added */
+}
+
+/* Added */
+.hero-text button:active {
+    transform: scale(0.97);
+}
+
+/* Added */
+.hero-text button:hover {
+    border-color: gray; 
+
 }
 
 .hero-media {
@@ -303,6 +316,18 @@ body {
     background-color: #3882F6;
     border-radius: 8px;
     border: solid 2px white;
+    cursor: pointer;  /* Added */
+}
+
+/* Added */
+.cta-controls button:active {
+    transform: scale(0.97);
+}
+
+/* Added */
+.cta-controls button:hover {
+    border-color: #dce9ff; 
+
 }
 
 /* ---------------- FOOTER ---------------- */
