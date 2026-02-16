@@ -28,9 +28,9 @@ body {
     padding: 0 160px 120px 160px;
 
     /* Visual */
-    background: #1F2937;
+    background-color: #1F2937;
 
-    border: solid red;
+    /* border: solid red; */
 }
 
 .hero-header {
@@ -39,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    border: solid orange;
+    /* border: solid orange; */
 }
 
 .hero-header h2 {
@@ -62,13 +62,21 @@ body {
     color: #E5E7EB;
 }
 
+.hero-header a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .hero-content {
     /* Layout */
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 
-    border: solid 4px green;
+    /* Box model */
+    gap: 56px;
+
+    /* border: solid 4px green; */
 }
 
 .hero-text {
@@ -79,7 +87,7 @@ body {
     /* Box model */
     max-width: 60ch;
 
-    border: solid cyan;
+    /* border: solid cyan; */
 }
 
 .hero-text h1 {
@@ -109,7 +117,7 @@ body {
     padding: 8px;
 
     /* Visual */
-    background: #3882F6;
+    background-color: #3882F6;
     border-radius: 8px;
 }
 
@@ -117,9 +125,9 @@ body {
     /* Layout */
     display: flex;
     justify-content: center;
-    flex: 1;
+    /* flex: 1; */
 
-    border: solid 6px gray;
+    /* border: solid 6px gray; */
 }
 
 .hero-media img {
@@ -148,10 +156,12 @@ body {
 .feature-list {
     /* Layout */
     display: flex;
-    text-align: center;
 
     /* Box model */
     gap: 32px;
+
+    /* Typography */
+    text-align: center;
 }
 
 .feature-list img {
@@ -177,9 +187,9 @@ body {
     padding: 96px 0;
 
     /* Visual */
-    background: #E5E7EB;
+    background-color: #E5E7EB;
 
-    border: solid black;
+    /* border: solid black; */
 }
 
 .testimonial-content {
@@ -191,7 +201,7 @@ body {
     max-width: 900px;
     margin: 0 32px;
 
-    border: solid green;
+    /* border: solid green; */
 }
 
 .testimonial-quote {
@@ -204,7 +214,7 @@ body {
     /* Box model */
     margin: 0;
 
-    border: solid blue;
+    /* border: solid blue; */
 }
 
 .testimonial-quote p {
@@ -224,7 +234,7 @@ body {
     margin-right: 32px;
     margin-top: 0;
 
-    border: solid orange;
+    /* border: solid orange; */
 }
 
 .testimonial-signature p {
@@ -239,6 +249,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    /* Box model */
+    padding: 88px 188px; 
 
     /* border: solid green; */
 }
@@ -252,13 +265,12 @@ body {
 
     /* Box model */
     padding: 56px 0;
-    margin: 88px 220px;
 
     /* Typography */
     color: #F9FAF8;
 
     /* Visual */
-    background: #3882F6;
+    background-color: #3882F6;
     border-radius: 8px;
 
     /* border: solid blue; */
@@ -288,7 +300,7 @@ body {
     padding: 8px;
 
     /* Visual */
-    background: #3882F6;
+    background-color: #3882F6;
     border-radius: 8px;
     border: solid 2px white;
 }
@@ -309,5 +321,5 @@ body {
     color: #F9FAF8;
 
     /* Visual */
-    background: #1F2937;
+    background-color: #1F2937;
 }
