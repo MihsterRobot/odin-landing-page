@@ -160,7 +160,7 @@ body {
 
     /* Box model */
     padding: 24px 0 100px 0;
-    gap: 8px;
+    gap: 36px;
 }
 
 .feature-list {
